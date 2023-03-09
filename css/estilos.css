@@ -1,4 +1,5 @@
 body {
+    background: #1e1f24;
     color: #333;
     text-align: center;
     font-family: Arial;
@@ -8,12 +9,19 @@ body {
 }
 
 #cabecera {
-    background: #33a;
+    background: #37488b;
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .5);
     color: #fff;
     font-weight: 700;
     margin: 0;
     padding: .5em
+}
+
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 20px;
 }
 
 #cabecera #tagline {
@@ -26,7 +34,7 @@ body {
     width: 70%;
     padding: 0;
     text-align: left;
-    border: 1px solid #8a6d6d;
+    border: 1px solid #ddd;
     margin: 0 auto
 }
 
@@ -35,5 +43,12 @@ body {
 }
 
 #post {
+    background: #fff;
     padding: 1em
+}
+
+#footer {
+    background-color: #777;
+    text-align: center;
+    color: white;
 }
